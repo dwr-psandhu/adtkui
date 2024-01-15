@@ -1,0 +1,133 @@
+AutoregressionAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - &id001 !!python/name:builtins.list ''
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: AutoregressionADParam00864
+    watchers: {}
+GeneralizedESDTestAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: GeneralizedESDTestADParam00862
+    watchers: {}
+InterQuartileRangeAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: InterQuartileRangeADParam00861
+    watchers: {}
+PersistAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: PersistADParam00863
+    watchers: {}
+QuantileAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: QuantileADParam00860
+    watchers: {}
+SeasonalAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: SeasonalADParam00865
+    watchers: {}
+ThresholdAD:
+  _param__private: !!python/object:param.parameterized._InstancePrivate
+    async_refs: {}
+    dynamic_watchers: !!python/object/apply:collections.defaultdict
+    - *id001
+    explicit_no_refs: []
+    initialized: true
+    parameters_state:
+      BATCH_WATCH: false
+      TRIGGER: false
+      events: []
+      watchers: []
+    params: {}
+    ref_watchers: []
+    refs: {}
+    syncing: !!set {}
+    values:
+      name: ThresholdADParam00859
+    watchers: {}

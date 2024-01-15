@@ -1,0 +1,22 @@
+name: adtkui
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - scikit-learn
+  - statsmodels
+  - param
+  - panel
+  - bokeh
+  - holoviews
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pip:
+    - git+https://github.com/arundo/adtk.git
+# pip install -e .
+# conda install pytest
